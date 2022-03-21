@@ -11,7 +11,7 @@ type Places = {
 }
 
 export type MapProps = {
-  places: Places[]
+  places?: Places[]
 }
 
 const Map = ({ places }: MapProps) => (
